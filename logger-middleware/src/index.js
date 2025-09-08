@@ -8,12 +8,12 @@ async function getAuthToken() {
   if (tokenCache && tokenExpiry > now + 5000) return tokenCache;
 
   const body = {
-    email: "abhishek.singh.dev147@gmail.com",
-    name: "abhishek gautam",
-    rollNo: "2201641640005",
+    email: "dhawalsrivastava2583@gmail.com",
+    name: "Dhawal Srivastava",
+    rollNo: "2201641640021",
     accessCode: "sAWTuR",
-    clientID: "c01379a2-e963-4e03-b9d5-cfbda587f179",
-    clientSecret: "vDDyBbQaxeEqPQqJ"
+    clientID: "4b527a22-b41c-4b39-a067-2b35183279e7",
+    clientSecret: "PTmTWrnPzapxdaTU"
   };
 
   const res = await fetch(`${BASE_URL}/auth`, {
